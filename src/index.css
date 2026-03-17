@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.5rem; /* 固定ヘッダー分のオフセット (h-14 = 56px) */
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;       /* base: 16px */
+  line-height: 1.75;
+}
+
+/* フォント階層 */
+h1 { font-size: 3rem;   font-weight: 700; line-height: 1.15; }
+h2 { font-size: 1.875rem; font-weight: 700; line-height: 1.25; }
+h3 { font-size: 1.25rem;  font-weight: 600; line-height: 1.4; }
+h4 { font-size: 1rem;     font-weight: 600; }
