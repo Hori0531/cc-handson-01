@@ -51,11 +51,11 @@ export default function Hero() {
       >
         {/* アバター */}
         <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-white/60 backdrop-blur-sm border-2 border-white/80 flex items-center justify-center text-4xl text-gray-600 font-bold shadow-xl">
-          小野
+          平田
         </div>
 
         <h1 className="text-4xl md:text-6xl font-bold mb-2 text-gray-700 drop-shadow-sm tracking-tight">
-          小野 たけし
+          平田 正人
         </h1>
 
         {/* タイピングアニメーション */}
